@@ -144,7 +144,7 @@
     "tokenColors": [
         {
             "scope": [
-                "comment"
+                "comment",
             ],
             "settings": {
                 "foreground": "#76787a"
@@ -152,16 +152,16 @@
         },
         {
             "scope": [
-                "keyword.control",
-                "storage.type",
-                "storage.modifier.specifier",
-                "variable.language.this",
                 "constant.language.nullptr",
-                "storage.modifier.inline",
+                "keyword.control",
                 "keyword.other.typedef",
-                "storage.modifier.static",
-                "support.type.basic.gdscript",
                 "meta.require",
+                "storage.modifier.inline",
+                "storage.modifier.specifier",
+                "storage.modifier.static",
+                "storage.type",
+                "support.type.basic.gdscript",
+                "variable.language.this",
             ],
             "settings": {
                 "foreground": "#6baa81"
@@ -170,9 +170,9 @@
         {
             "scope": [
                 "entity.name.type",
+                "entity.other.inherited-class.gdscript",
                 "storage.modifier.sqf",
                 "support.class",
-                "entity.other.inherited-class.gdscript"
             ],
             "settings": {
                 "foreground": "#6b91aa"
@@ -188,11 +188,11 @@
         },
         {
             "scope": [
-                "constant.numeric",
-                "constant.language.true",
-                "constant.language.false",
                 "constant.language.boolean",
+                "constant.language.false",
                 "constant.language.gdscript",
+                "constant.language.true",
+                "constant.numeric",
                 "storage.type.number.python",
             ],
             "settings": {
@@ -202,8 +202,8 @@
         {
             "scope": [
                 "entity.name.type.variant.gdscript",
+                "keyword.operator",
                 "meta.bracket.square.access",
-                "keyword.operator"
             ],
             "settings": {
                 "foreground": "#a1a18b"
@@ -211,10 +211,10 @@
         }
     ],
     "semanticTokenColors": {
+        "builtinConstant.readonly": "#aa9c6b",
+        "function.decorator": "#6b91aa",
+        "module.decorator": "#6b91aa",
         "selfParameter": "#6baa81",
         "variable.defaultLibrary": "#6b91aa",
-        "builtinConstant.readonly": "#aa9c6b",
-        "module.decorator": "#6b91aa",
-        "function.decorator": "#6b91aa"
     }
 }
