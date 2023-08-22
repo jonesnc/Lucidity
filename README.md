@@ -24,6 +24,17 @@ The overarching philosophy for Lucidity is pretty simple: make code easier to re
 
 Lucidity adds some language-specific highlighting rules.
 
+## Color Palette
+
+| Token                                       | Color                                                                     |
+| ------------------------------------------- | ------------------------------------------------------------------------- |
+| Default text, operators, brackets           | ![#a1a18b](https://via.placeholder.com/15/a1a18b/000000?text=+) `#a1a18b` |
+| Comment                                     | ![#76787a](https://via.placeholder.com/15/76787a/000000?text=+) `#76787a` |
+| Keywords, Macros, Require/Import, Built-ins | ![#6baa81](https://via.placeholder.com/15/6baa81/000000?text=+) `#6baa81` |
+| Type, Class, Scope Modifier                 | ![#6b91aa](https://via.placeholder.com/15/6b91aa/000000?text=+) `#6b91aa` |
+| String                                      | ![#75755F](https://via.placeholder.com/15/75755F/000000?text=+) `#75755F` |
+| Constant, Boolean, Numerics                 | ![#aa9c6b](https://via.placeholder.com/15/aa9c6b/000000?text=+) `#aa9c6b` |
+
 ## Contributing
 
 If you like the theme, and wish to contribute, by all means feel free to do so!
